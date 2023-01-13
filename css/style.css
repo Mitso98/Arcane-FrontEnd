@@ -95,7 +95,7 @@ img.main-cover {
 div.video-holder {
   background-image: url("../images/bg-2.jpg");
   width: 100%;
-  height: 500px;
+  height: 700px;
 
   /* Do not repeat the image */
   background-repeat: no-repeat;
@@ -103,18 +103,19 @@ div.video-holder {
   /* Resize the background image to cover the entire container */
   background-size: cover;
 }
-@media only screen and (max-width: 600px){
+
+@media only screen and (max-width: 600px) {
   div.video-holder {
-  background-image: url("../images/bg-2.jpg");
-  width: 100%;
-  height: 40vh;
+    background-image: url("../images/bg-2.jpg");
+    width: 100%;
+    height: 40vh;
 
-  /* Do not repeat the image */
-  background-repeat: no-repeat;
-  background-position: center;
-  /* Resize the background image to cover the entire container */
-  background-size: cover;
-}
+    /* Do not repeat the image */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Resize the background image to cover the entire container */
+    background-size: cover;
+  }
 }
 
 video {
@@ -123,16 +124,29 @@ video {
   margin: auto;
   padding-top: 80px;
 }
+
 div.champions {
   padding-top: 50px;
 }
+
 img.jinx-staring {
   width: 300px;
   height: 70vh;
   display: inline-block;
   transition: 3s;
   cursor: pointer;
-  padding: 0 5vw;
+  padding: 0 12vw;
+}
+
+@media only screen and (max-width: 600px) {
+  img.jinx-staring {
+    width: 300px;
+    height: 70vh;
+    display: inline-block;
+    transition: 3s;
+    cursor: pointer;
+    padding: 0 5vw;
+  }
 }
 
 img.jinx-staring:hover {
@@ -145,7 +159,18 @@ img.vi {
   display: inline-block;
   transition: 3s;
   cursor: pointer;
-  padding: 0 5vw;
+  padding: 0 12vw;
+}
+
+@media only screen and (max-width: 600px) {
+  img.vi {
+    width: 300px;
+    height: 70vh;
+    display: inline-block;
+    transition: 3s;
+    cursor: pointer;
+    padding: 0 5vw;
+  }
 }
 
 img.vi:hover {
@@ -166,9 +191,10 @@ footer {
   -moz-text-fill-color: transparent;
   transition: 0.3s;
 
-  border-top: 1px solid gray; 
+  border-top: 1px solid gray;
   margin-top: 35px;
 }
-div.footer{
+
+div.footer {
   margin: 20px 0px;
 }
