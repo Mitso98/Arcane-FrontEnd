@@ -156,12 +156,11 @@ video {
 
 div.champions {
   padding-top: 70px;
-  display: inline-block;
-  width:25%;
+  float: left;
 }
 
 .center-content {
-  display: block;
+  float: left;
   width: 100%;
   text-align: center;
 }
@@ -172,7 +171,7 @@ img.jinx-staring {
   display: inline-block;
   transition: 3s;
   cursor: pointer;
-  padding: 0 12vw;
+  padding: 0 3vw;
 }
 
 @media only screen and (max-width: 600px) {
@@ -230,7 +229,7 @@ footer {
 
   border-top: 1px solid gray;
   margin-top: 35px;
-  
+  clear: both;
 }
 
 .footer-sec {
