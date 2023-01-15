@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/index.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="./js/script.js" defer></script>
     <title>Arcane | Register</title>
   </head>
   <body>
     <header>
-      <nav class="narrow-nav">
+      <nav class="narrow-nav" id="narrow-nav">
         <img
           class="nav-logo"
           src="./images/logo/arcane-logo-2.png"
@@ -24,6 +27,13 @@
             </button>
           </li>
         </ul>
+        <div id="hidden">
+          <a href="./index.html">Home</a>
+          <a href="./champions.html">Champions</a>
+          <a href="./Contact Us.html">Contact Us</a>
+          <a href="./Login.html">Login</a>
+          <a href="./Register.html">Sign Up</a>
+        </div>
       </nav>
       <nav class="big-nav">
         <img
@@ -36,41 +46,40 @@
           |
           <li><a href="./champions.html">Champions</a></li>
           |
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="./Contact Us.html">Contact Us</a></li>
           |
-          <li><button class="navbutton">Login</button></li>
+          <li><a href="./Login.html">Login</a></li>
           |
-          <li><button class="navbutton">Sign Up</button></li>
+          <li><a href="./Register.html">Sign Up</a></li>
         </ul>
       </nav>
     </header>
     <form class="half-page-form">
       <fieldset class="fieldset-line">
         <label class="form-label">First Name</label>
-        <input type="text" class="form-input"/>
-        <br><br>
+        <input type="text" class="form-input" />
+        <br /><br />
         <label class="form-label">Last Name</label>
-        <input type="text" class="form-input"/>
-        <br><br>
+        <input type="text" class="form-input" />
+        <br /><br />
         <label class="form-label">Gender</label>
         <div class="form-input">
-        <input type="radio" name="gender" value="Male" class="form-radio"/>
-        <label class="form-radio-label">Male</label>
-        <input type="radio" name="gender" value="Female" class="form-radio"/>
-        <label class="form-radio-label">Female</label>
+          <input type="radio" name="gender" value="Male" class="form-radio" />
+          <label class="form-radio-label">Male</label>
+          <input type="radio" name="gender" value="Female" class="form-radio" />
+          <label class="form-radio-label">Female</label>
         </div>
-        <br><br>
+        <br /><br />
         <label class="form-label">Email</label>
-        <input type="text" class="form-input"/>
-        <br><br>
+        <input type="text" class="form-input" />
+        <br /><br />
         <label class="form-label">Username</label>
-        <input type="text" class="form-input"/>
-        <br><br>
+        <input type="text" class="form-input" />
+        <br /><br />
         <label class="form-label">Password</label>
-        <input type="password" class="form-input"/>
-        <br><br>
-        <input type="submit" class="form-button">
-        
+        <input type="password" class="form-input" />
+        <br /><br />
+        <input type="submit" class="form-button" />
       </fieldset>
     </form>
     <footer>
