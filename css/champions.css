@@ -22,7 +22,11 @@ header {
 }
 
 main {
-  height: 100%;
+  height: auto;
+  width:fit-content;
+  display: block;
+  margin: auto;
+  margin-top: 5rem;
 }
 #hidden>a{
   display: block;
@@ -159,7 +163,11 @@ img.main-cover {
   text-align: center;
   font-family: arial;
   cursor: pointer;
-  float: left;
+  /* float: left; */
+  display: inline-block;
+  margin: 20px;
+  vertical-align: top;
+  color: #9e856a;
 }
 
 .card-img{
