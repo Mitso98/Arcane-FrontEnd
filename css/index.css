@@ -162,7 +162,7 @@ div.champions {
 
 .center-content {
   display: block;
-  width: 100%
+  width: 100%;
   text-align: center;
 }
 
@@ -289,7 +289,6 @@ div.footer {
 }
 .form-radio {
   display: inline-block;
-  width: 
   text-align: left;
   font-size: inherit;
 }
