@@ -10,23 +10,40 @@
     <title>Arcane | Contact Us</title>
   </head>
 <body>
-    <header>
-        <nav>
-          <img
-              class="nav-logo"
-              src="./images/logo/arcane-logo-2.png"
-              alt="logo"
-            />
-          <ul class="nav-list">
-            
-            <li><a href="#">Home</a></li> |
-            <li><a href="#">Champions</a></li> |
-            <li><a href="#">Contact Us</a></li> |
-            <li><button class="navbutton">Login</button></li> |
-            <li><button class="navbutton">Sign Up</button></li>
-          </ul>
-        </nav>
-      </header>
+  <header>
+    <nav class="narrow-nav">
+      <img
+        class="nav-logo"
+        src="./images/logo/arcane-logo-2.png"
+        alt="logo"
+      />
+      <ul class="nav-list">
+        <li>
+          <button class="navbutton" id="expand-nav">
+            <i class="fa fa-bars"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <nav class="big-nav">
+      <img
+        class="nav-logo"
+        src="./images/logo/arcane-logo-2.png"
+        alt="logo"
+      />
+      <ul class="nav-list">
+        <li><a href="./index.html">Home</a></li>
+        |
+        <li><a href="./champions.html">Champions</a></li>
+        |
+        <li><a href="#">Contact Us</a></li>
+        |
+        <li><button class="navbutton">Login</button></li>
+        |
+        <li><button class="navbutton">Sign Up</button></li>
+      </ul>
+    </nav>
+  </header>
     <form class="half-page-form">
         <fieldset class="fieldset-line">
             <label class="form-label">Email</label>
@@ -38,6 +55,27 @@
             <input type="submit" value="Send" class="form-button">
         </fieldset>
     </form>
-    
+    <footer>
+      <div class="footer-sec">
+        <h4>Created by:</h4>
+        Ragia Abdallah | <i class="fa fa-github"></i>
+        <a href="https://github.com/ragia-abdallah"> ragia-abdallah</a> <br />
+        Mostafa Ahmed | <i class="fa fa-github"></i>
+        <a href="https://www.linkedin.com/in/mostafa-ahmed-abdelghany/">
+          Mostafa9898</a
+        >
+      </div>
+
+      <div class="footer-sec">
+        <h4>Useful Links:</h4>
+        <li class="footer-link"><a href="./index.html">Home</a></li>
+        <br />
+        <li class="footer-link"><a href="./champions.html">Champions</a></li>
+        <br />
+        <li class="footer-link"><a href="./Contact Us.html">Contact Us</a></li>
+      </div>
+
+      <div class="footer">All rights reserved ®<br /></div>
+    </footer>
 </body>
 </html>
